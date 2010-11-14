@@ -11,7 +11,7 @@ function findPos(obj) {
 	}
 };
 
-var comElement = document.getElementById('comments');
+var comElement = document.getElementById('comments') || document.getElementById('dsq-comments');
 var comHeight = findPos(comElement)[1];
 var winHeight = window.innerHeight;
 var docHeight = document.body.clientHeight;
