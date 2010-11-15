@@ -1,0 +1,55 @@
+========== BROKEN
+
+
+
+========== WORKING
+
+http://www.hotforwords.com/2010/10/22/defenestration/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+hotforwords+(HotForWords)
+    div id="comments"
+http://www.timferriss.com/1/post/2009/05/tim-ferriss-alan-webber.html
+    NOT div id='blog-comments'
+    BUT a name='comments' id='comments'
+    OR div id='commentArea'
+http://37signals.com/svn/posts/2632-nordstroms-employee-handbook-mdash-short-and-sweet
+    div id="comments"
+http://longmantravels.blogspot.com/2010/03/en-route-to-haiti.html
+    div id='comments'
+http://blog.okcupid.com/index.php/the-biggest-lies-in-online-dating/
+    h3 id="comments"
+http://lens.blogs.nytimes.com/2010/11/10/pictures-of-the-day-england-and-elsewhere/
+    div id="commentsWell"
+    OR div id="readerComments"
+http://blog.thegvrv.com/steve-jobs-says-fk-you-ruby-fanbois-oppugnus
+    div class="comment_list"
+http://www.michaelyon-online.com/to-follow-these-steps/page-2.htm
+    div id="jcWrapper"
+        div id="jc_commentsDiv"
+http://www.jerryandmartha.com/yourdailyart/2010/01/by-popular-demand.html
+    div id="comments"
+http://ak-bara.livejournal.com/526793.html
+    p class="comments"
+http://dilbert.com/strips/comic/2010-11-09/
+    div class="STR_StripComments"
+http://www.fourhourworkweek.com/blog/2010/10/05/tea-and-the-art-of-life-management/
+    div id="comments"
+http://hotchicksatartopenings.tumblr.com/post/663873561
+    div id="notes"
+http://sivers.org/itunes
+    h3 id="comments"
+http://www.subtraction.com/2010/10/06/the-job-a-michael-mann-film-festival?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+subtraction+Subtraction
+http://www.ppeach.com/blog/2010/10/wealth-biomarkers/
+http://blog.notahat.com/posts/42
+http://atomicdynamyte.blogspot.com/2008/12/all-i-want-for-christmas-is-you-and.html
+http://katekendall.com/2010/10/01/update-on-the-journey/
+http://blog.adioso.com/adioso-a-new-beginning
+http://brandonmathis.com/blog/2010/10/08/how-to-get-high-resolution-screenshots-of-a-website/
+http://crisiscommons.org/blog/2010/09/28/crisiscamp-european-activities-and-iccm/
+http://www.extjswithrails.com/2009/06/restful-store-example-with-rails_04.html
+http://rhnh.net/2010/10/19/dominion-strategy-guide
+http://thinkvitamin.com/code/php-basics-simple-variables-and-functions/
+http://bagrationi.wordpress.com/2010/11/07/harry/
+http://georgien.blogspot.com/2010/11/artikel-reset-im-great-game-vom.html
+http://blog.ushahidi.com/index.php/2010/09/27/daring-to-hope/
+
+
+

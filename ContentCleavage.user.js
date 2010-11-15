@@ -27,21 +27,44 @@ var getDocHeight = function () {
         // Doing this because document.height isn't always defined, e.g. for: http://sivers.org/itunes/
         return document.body.clientHeight; 
     }
-}
+};
 
 var getCommentsElem = function () {
-    var ids = [
-        'comments', 
-        'dsq-comments',
-        'remarks'
+    var patterns = [
+        // The first matching pattern triggers the return of the first matched element within the document.
+        // Patterns with more chance of a correct match should be earlier in this list.
+        { tag: 'div',     attrib: 'id',    re: /^comments$/i },
+        { tag: 'h3',      attrib: 'id',    re: /^comments$/i },
+        { tag: 'div',     attrib: 'id',    re: /^jcWrapper$/i },
+        { tag: 'div',     attrib: 'class', re: /^comments$/i },
+        { tag: 'section', attrib: 'class', re: /^comments$/i },
+        { tag: 'div',     attrib: 'id',    re: /^disqus_thread$/i },
+        { tag: 'a',       attrib: 'id',    re: /^comment-\d+$/i },
+        { tag: 'li',      attrib: 'id',    re: /^comment-\d+$/i },
+        { tag: 'p',       attrib: 'class', re: /^comments$/i },
+        { tag: 'div',     attrib: 'class', re: /^comment_list$/i },
+        { tag: 'div',     attrib: 'id',    re: /^commentsWell$/i },
+        { tag: 'div',     attrib: 'id',    re: /^readerComments$/i },
+        { tag: 'div',     attrib: 'id',    re: /^notes$/i },
+        { tag: 'div',     attrib: 'id',    re: /^remarks$/i },
+        { tag: 'div',     attrib: 'class', re: /^STR_StripComments$/i },
+        { tag: 'a',       attrib: 'id',    re: /^comments$/i }
     ];
-    var i, elem;
-    for (i = 0; i < ids.length; i += 1) {
-        elem = document.getElementById(ids[i]);
-        if (elem !== null) { return elem; }
+    var elems, ei, pi, attrib, re;
+
+    for (pi = 0; pi < patterns.length; pi += 1) {
+        elems = document.getElementsByTagName(patterns[pi]['tag']);
+        for (ei=0; ei < elems.length; ei += 1) {
+            attrib = patterns[pi]['attrib'];
+            re = patterns[pi]['re'];
+            if (elems[ei].attributes[attrib] && elems[ei].attributes[attrib].value.match(re)) {
+                return elems[ei];
+            }
+        }
     }
+    
     return false;
-}
+};
 
 var insertBar = function () {
     var commentsElem, 
@@ -85,16 +108,20 @@ var insertBar = function () {
     bar.appendChild(articlePart);
     bar.appendChild(commentsPart);
     document.body.appendChild(bar);
-}
+};
 
 var redrawBar = function () {
     var oldBar = document.getElementById('ContentCleavageBar');
     if (oldBar !== null) { document.body.removeChild(oldBar); }
     insertBar();
-}
+};
 
 var elem = getCommentsElem();
 if (elem) { 
     insertBar();
     window.addEventListener('resize',redrawBar,false);
+    // These redraws are to correct for pages that are extended after load (e.g. pages using DISQUS).
+    setTimeout(redrawBar,500); 
+    setTimeout(redrawBar,1000);
+    setTimeout(redrawBar,3000);
 }
