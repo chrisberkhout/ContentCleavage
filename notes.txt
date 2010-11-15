@@ -35,8 +35,13 @@ document.body.appendChild(regionsDiv);
 
 ---------------
 
+- this one get's wrong document.body.clientHeight
+    http://www.aaronboodman.com/2009/04/content-scripts-in-chromium.html
+
 - greasemonkey:
     http://commons.oreilly.com/wiki/index.php/Greasemonkey_Hacks/Getting_Started
+- chrome extensions:
+    http://code.google.com/chrome/extensions/getstarted.html
     
 - finding the comments:
     http://www.regular-expressions.info/javascriptexample.html
