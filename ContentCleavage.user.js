@@ -15,6 +15,8 @@ var findPos = function (obj) { // http://www.quirksmode.org/js/findpos.html
             curtop += obj.offsetTop;
         } while (obj = obj.offsetParent);
         return [curleft, curtop];
+    } else {
+        return false;
     }
 };
 
@@ -33,22 +35,43 @@ var getCommentsElem = function () {
     var patterns = [
         // The first matching pattern triggers the return of the first matched element within the document.
         // Patterns with more chance of a correct match should be earlier in this list.
+        { tag: 'div',     attrib: 'class', re: /^discussion-column$/i, reject: true },
+        { tag: 'div',     attrib: 'id',    re: /^idc-container.*$/i },
         { tag: 'div',     attrib: 'id',    re: /^comments$/i },
+        { tag: 'div',     attrib: 'class', re: /\bcomments\b/i },
+        { tag: 'div',     attrib: 'id',    re: /^discussion$/i },
+        { tag: 'ul',      attrib: 'id',    re: /^comments$/i },
+        { tag: 'h4',      attrib: 'id',    re: /^comments$/i },
         { tag: 'h3',      attrib: 'id',    re: /^comments$/i },
+        { tag: 'h1',      attrib: 'id',    re: /^comments$/i },
+        { tag: 'h2',      attrib: 'id',    re: /^comments$/i },
+        { tag: 'h2',      attrib: 'class', re: /\bcomments\b/i },
+        { tag: 'div',     attrib: 'class', re: /\bcommentsList\b/i },
         { tag: 'div',     attrib: 'id',    re: /^jcWrapper$/i },
-        { tag: 'div',     attrib: 'class', re: /^comments$/i },
-        { tag: 'section', attrib: 'class', re: /^comments$/i },
+        { tag: 'div',     attrib: 'id',    re: /^comment_container$/i },
+        { tag: 'div',     attrib: 'class', re: /\bcomments-section\b/i },
+        { tag: 'div',     attrib: 'class', re: /\bmainComments\b/i },
+        { tag: 'section', attrib: 'class', re: /\bcomments\b/i },
+        { tag: 'ul',      attrib: 'id',    re: /^dsq-comments$/i },
         { tag: 'div',     attrib: 'id',    re: /^disqus_thread$/i },
+        { tag: 'div',     attrib: 'class', re: /\bcommentarea\b/i },
+        { tag: 'div',     attrib: 'class', re: /\bcomments?_holder\b/i },
+        { tag: 'a',       attrib: 'name',  re: /^comments$/i },
         { tag: 'a',       attrib: 'id',    re: /^comment-\d+$/i },
         { tag: 'li',      attrib: 'id',    re: /^comment-\d+$/i },
-        { tag: 'p',       attrib: 'class', re: /^comments$/i },
-        { tag: 'div',     attrib: 'class', re: /^comment_list$/i },
+        { tag: 'div',     attrib: 'id',    re: /^TalkbackDiv$/i },
+        { tag: 'p',       attrib: 'class', re: /\bcomments\b/i },
+        { tag: 'div',     attrib: 'class', re: /\bcomment_list\b/i },
+        { tag: 'div',     attrib: 'class', re: /\bfacebook_comments?\b/i },
         { tag: 'div',     attrib: 'id',    re: /^commentsWell$/i },
         { tag: 'div',     attrib: 'id',    re: /^readerComments$/i },
         { tag: 'div',     attrib: 'id',    re: /^notes$/i },
         { tag: 'div',     attrib: 'id',    re: /^remarks$/i },
-        { tag: 'div',     attrib: 'class', re: /^STR_StripComments$/i },
-        { tag: 'a',       attrib: 'id',    re: /^comments$/i }
+        { tag: 'div',     attrib: 'id',    re: /^commentsLink$/i },
+        { tag: 'div',     attrib: 'class', re: /\bSTR_StripComments\b/i },
+        { tag: 'div',     attrib: 'class', re: /\bfluxcomment\b/i },
+        { tag: 'a',       attrib: 'id',    re: /^comments$/i },
+        { tag: 'span',    attrib: 'class', re: /\b.+-comments\b/i }
     ];
     var elems, ei, pi, attrib, re;
 
@@ -58,16 +81,19 @@ var getCommentsElem = function () {
             attrib = patterns[pi]['attrib'];
             re = patterns[pi]['re'];
             if (elems[ei].attributes[attrib] && elems[ei].attributes[attrib].value.match(re)) {
-                return elems[ei];
+                if (patterns[pi]['reject']) { return false; }
+                else { 
+                    return elems[ei];
+                }
             }
         }
     }
-    
     return false;
 };
 
 var insertBar = function () {
     var commentsElem, 
+        pos,
         winHeight, 
         docHeight, 
         articlePartHeight, 
@@ -76,12 +102,12 @@ var insertBar = function () {
         commentsPart, 
         bar;
     
-    commentsElem = getCommentsElem();
     winHeight = window.innerHeight;
     docHeight = getDocHeight();
+    commentsElem = getCommentsElem();
     articlePartHeight = winHeight * (findPos(commentsElem)[1] / docHeight);
     commentsPartHeight = winHeight - articlePartHeight;
-    
+
     articlePart = document.createElement('div');
     articlePart.id = 'readingRegionArticle';
     articlePart.style.cssText = 
@@ -100,6 +126,7 @@ var insertBar = function () {
     bar.id = 'ContentCleavageBar';
     bar.style.cssText = 
         'position: fixed;' +
+        'z-index: 10;' +
         'top: 0px;' +
         'right: 0px;' +
         'height: ' + winHeight + 'px;' +
@@ -122,6 +149,6 @@ if (elem) {
     window.addEventListener('resize',redrawBar,false);
     // These redraws are to correct for pages that are extended after load (e.g. pages using DISQUS).
     setTimeout(redrawBar,500); 
-    setTimeout(redrawBar,1000);
-    setTimeout(redrawBar,3000);
+    setTimeout(redrawBar,1500);
+    setTimeout(redrawBar,5000);
 }

@@ -1,41 +1,22 @@
 ========== BROKEN
 
 
-
-========== WORKING
+========== WORKING (first batch, used to establish patterns)
 
 http://www.hotforwords.com/2010/10/22/defenestration/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+hotforwords+(HotForWords)
-    div id="comments"
 http://www.timferriss.com/1/post/2009/05/tim-ferriss-alan-webber.html
-    NOT div id='blog-comments'
-    BUT a name='comments' id='comments'
-    OR div id='commentArea'
 http://37signals.com/svn/posts/2632-nordstroms-employee-handbook-mdash-short-and-sweet
-    div id="comments"
 http://longmantravels.blogspot.com/2010/03/en-route-to-haiti.html
-    div id='comments'
 http://blog.okcupid.com/index.php/the-biggest-lies-in-online-dating/
-    h3 id="comments"
 http://lens.blogs.nytimes.com/2010/11/10/pictures-of-the-day-england-and-elsewhere/
-    div id="commentsWell"
-    OR div id="readerComments"
 http://blog.thegvrv.com/steve-jobs-says-fk-you-ruby-fanbois-oppugnus
-    div class="comment_list"
 http://www.michaelyon-online.com/to-follow-these-steps/page-2.htm
-    div id="jcWrapper"
-        div id="jc_commentsDiv"
 http://www.jerryandmartha.com/yourdailyart/2010/01/by-popular-demand.html
-    div id="comments"
 http://ak-bara.livejournal.com/526793.html
-    p class="comments"
 http://dilbert.com/strips/comic/2010-11-09/
-    div class="STR_StripComments"
 http://www.fourhourworkweek.com/blog/2010/10/05/tea-and-the-art-of-life-management/
-    div id="comments"
 http://hotchicksatartopenings.tumblr.com/post/663873561
-    div id="notes"
 http://sivers.org/itunes
-    h3 id="comments"
 http://www.subtraction.com/2010/10/06/the-job-a-michael-mann-film-festival?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+subtraction+Subtraction
 http://www.ppeach.com/blog/2010/10/wealth-biomarkers/
 http://blog.notahat.com/posts/42
@@ -50,6 +31,202 @@ http://thinkvitamin.com/code/php-basics-simple-variables-and-functions/
 http://bagrationi.wordpress.com/2010/11/07/harry/
 http://georgien.blogspot.com/2010/11/artikel-reset-im-great-game-vom.html
 http://blog.ushahidi.com/index.php/2010/09/27/daring-to-hope/
+http://www.boston.com/bigpicture/2010/11/hajj_2010.html
+http://www.prosebeforehos.com/sports-editor/11/15/is-kevin-garnett-ruining-his-legacy/
+http://www.thesmokingjacket.com/entertainment/five-stupid-trends-that-will-soon-be-stupid-hollywood-films
+http://progressivenation.us/2010/11/15/could-democrats-cut-taxes-for-all-and-please-everyone/
+http://www.tuaw.com/2010/11/15/itunes-announcement-11-15-the-likely-and-long-shot-possibilitie/
+http://www.tvsquad.com/2010/11/15/tina-fey-wins-mark-twain-prize-sarah-palin/
+http://www.cinemablend.com/dvdnews/Disney-Trying-Derez-Original-Tron-From-History-28193.html
+http://www.forkparty.com/emma-watson-at-the-harry-potter-premiere-2010/
+http://blogs.discovermagazine.com/badastronomy/2010/11/15/ancient-ice-wet-and-dry-from-deep-inside-a-comet/
+http://www.nj.com/news/index.ssf/2010/11/nj_transit_bus_drivers_dangero.html
+http://www.youtube.com/watch?v=7QrnwoO1-8A
+http://www.openforum.com/idea-hub/topics/marketing/article/mint-data-a-brand-new-resource-your-retail-business-cant-afford-to-ignore-nick-saint
+http://www.gamepro.com/article/news/217274/thq-releases-udraw-gametablet-for-wii/
+http://blog.cleveland.com/metro/2010/11/momma_cat_nurses_puppy_at_the.html
+http://www.networkworld.com/community/blog/traveler-tsa-if-you-touch-my-junk-ill-have-yo
+http://www.good.is/post/what-s-the-carbon-cost-of-a-dollar-spent/
+http://www.time.com/time/business/article/0,8599,2031165,00.html
+http://theweek.com/article/index/209062/what-the-rest-of-the-world-thinks-about-sarah-palin
+http://blogs.houstonpress.com/hairballs/2010/11/texas_fruit_box_labels.php
+http://www.takepart.com/news/2010/11/12/san-suu-kyi
+http://www.digitaltrends.com/computing/kinect-costs-only-56-to-make-149-99-to-own/
+http://www.digitaltrends.com/computing/u-s-to-retake-supercomputer-throne-from-china/
+http://gamrfeed.vgchartz.com/story/82732/kinect-sales-reach-13m-units-worldwide/
+http://www.wired.com/magazine/2010/11/pl_howto_redeem/
+http://gnews.com/gaming-girls-needed-for-more-than-simple-sex-appeal-17201055115415/
+http://furiousfanboys.com/2010/11/5-things-my-obsessive-wow-playing-has-ruined-for-me/
+http://hothardware.com/News/Elgato-EyeTV-Netstream-Sat-Streams-Freesat-TV-To-Your-Home-Network/
+http://blastr.com/2010/11/jewel-staite-stargate-stunts-my-favorite-superpower-and-more.php
+http://regretfulmorning.com/2010/11/27-reasons-why-we-love-the-buzz-kill-meme/
+http://gamrfeed.vgchartz.com/story/82730/heres-a-list-of-all-1031-cars-in-gran-turismo-5/
+http://tpmmuckraker.talkingpointsmemo.com/2010/11/rangel_threatens_to_leave_hearing_committee_now_de.php
+http://www.physorg.com/news/2010-11-soda-boosts-oil-production-algae.html
+http://au.tv.ign.com/articles/113/1134293p1.html
+http://www.newsweek.com/2010/11/14/why-caffeinated-alcohol-drinks-are-so-risky.html
+http://techcrunch.com/2010/11/15/digg-ceo-simplegeo-jay-adelson/
+http://blogs.sfweekly.com/shookdown/2010/11/if_you_fart_claim_it_helpful_a.php
+http://techcrunch.com/2010/11/14/path-photo-sharing/
+http://www.myfunnypets.net/pics/pinscher-walking-on-two-legs/
+http://www.saveur.com/article/Recipes/Make-Your-Own-McRib-Bigger-Better-and-Always-Available?sms_ss=digg&at_xt=4ce16e74a13cc571,0
+http://www.joystickdivision.com/2010/11/the_ten_greatest_mustaches_and.php
+http://www.parentdish.com/2010/11/15/half-baked-police-called-on-ny-kids-cupcake-sale/
+http://www.totalprosports.com/2010/11/12/who-knew-tricep-extensions-could-be-so-sexy-gif/
+http://www.nerve.com/news/web/tumblr-and-4chan-wage-attacks-against-each-other
+http://www.shmoop.com/news/2010/11/11/epic-fails-human-history/
+http://regretfulmorning.com/2010/11/stop-the-car-thats-my-friend/
+http://www.automoblog.net/2010/11/15/is-your-car-made-in-america-infographic/
+http://www.gameranx.com/features/id/999/article/top-10-best-rpgs-for-xbox-360/
+http://blogs.phoenixnewtimes.com/bella/2010/11/thanksgiving_classics_we_dont.php
+http://blogs.computerworld.com/17355/zombies_and_angry_birds_attack_mobile_phone_malware
+http://www.mint.com/blog/trends/recession-timeline-11042010/
+http://www.fortunewatch.com/the-obama-tax-system-explained-in-beer/
+http://www.thedailygreen.com/healthy-eating/latest/food-marketing
+http://www.theothercritic.com/online-ads-vs-offline-ads/
+http://www.nintendoeverything.com/55376/
+http://www.nj.com/mercer/index.ssf/2010/11/princeton_u_group_having_crunc.html
+http://www.telegraph.co.uk/news/worldnews/australiaandthepacific/australia/8132290/Australian-politician-claims-Britain-is-overrun-with-immigrants-and-refugees.html
+http://www.rawstory.com/rs/2010/11/scientists-propose-oneway-trips-mars/
+http://www.engadget.com/2010/11/14/hybrid-batteries-tease-big-energy-capacity-while-charging-in-sec/
+http://www.theatlantic.com/magazine/archive/2006/12/influential-filmmakers/5383/
+http://www.intomobile.com/2010/11/14/how-to-request-refund-iphone-app/
+http://www.people.com/people/article/0,,20442139,00.html
+http://www.complex.com/blogs/2010/11/11/a-guide-to-eva-mendes-best-back-shots/
+http://www.devicemag.com/2010/11/15/meego-may-have-a-future-afterall-nokia-to-get-engineering-expertise-from-amd/
+http://www.huffingtonpost.com/2010/11/15/facebook-email-service-to_n_783516.html
+http://www.networkworld.com/community/blog/microsoft-breaks-petaflop-barrier-loses-top-5
+http://www.splicetoday.com/moving-pictures/jean-luc-godard-and-the-jews (rejected cos comments go on a column beside the story)
+http://www.theatlanticwire.com/opinions/view/opinion/Humanist-Groups-Aim-to-Push-Back-at-Bible-Derived-Morality-5785
+http://www.cracked.com/video_18226_bad-idea-hanging-with-work-friends-outside-office.html
+http://www.cracked.com/article_18805_5-ways-stores-use-science-to-trick-you-into-buying-crap.html
+http://guyism.com/humor/video-drunk-woman-interviewed-about-why-she-hit-bus-full-of-kids.html
+http://guyism.com/humor/video-drunk-woman-interviewed-about-why-she-hit-bus-full-of-kids.html
+http://business2press.com/2010/11/15/facebook-unveils-social-messaging-system-facebook-emails/
 
+========== WORKING (indented means needed fixing, non-indented means was already working)
 
-
+http://www.creditloan.com/infographics/how-the-average-consumer-spends-their-paycheck/
+    http://www.reddit.com/r/AskReddit/comments/e6qe0/kid_rock_is_preventing_his_music_from_being_sold/
+http://news.yahoo.com/s/ap/us_one_way_to_mars;_ylt=AkBiBWfgjZTFk_BAcSmaDFKs0NUE;_ylu=X3oDMTFpcjRoMTVjBHBvcwMzNgRzZWMDYWNjb3JkaW9uX21vc3RfcG9wdWxhcgRzbGsDc2NpZW50aXN0c3By
+http://www.telegraph.co.uk/news/worldnews/europe/romania/8128644/My-glimpse-of-hell-and-the-pitiful-children-who-have-been-betrayed.html
+    http://www.ynetnews.com/articles/0,7340,L-3983543,00.html
+    http://www.jpost.com/Israel/Article.aspx?id=195342
+    http://chronicle.com/article/The-Future-of-Free-Speech/125326/
+http://www.care2.com/causes/animal-welfare/blog/-physics-of-wet-dog-shake-discovered/
+    http://www.brobible.com/story/florida-used-truck-dealership-offers-free-ak-47-with-every-truck-sold
+http://www.chicagonow.com/blogs/redeye-events/2010/11/i-ate-the-mcrushmore-and-lived-to-tell-about-it.html
+http://www.totalprosports.com/2010/11/15/9-sports-team-logos-that-need-to-be-brought-back/
+http://www.midwestsportsfans.com/2010/11/photo-story-benching-brett-favre/
+http://blogs.riverfronttimes.com/gutcheck/2010/11/reindeer_meat_christmas_lidl_st_louis_food_blog_111510.php
+http://www.dailygalaxy.com/my_weblog/2010/11/mirrors-in-your-brain-they-do-for-psychology-what-dna-did-for-biology.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+TheDailyGalaxyNewsFromPlanetEarthBeyond+(The+Daily+Galaxy:+News+from+Planet+Earth+%26+Beyond)
+http://au.askmen.com/top_10/entertainment/top-10-berlusconi-moments_1p.html
+http://www.thesmokingjacket.com/entertainment/five-crimes-against-humammory
+    https://getcurrency.com/article/youre-getting-married-start-planning-now
+http://www.thedailybeast.com/blogs-and-stories/2010-11-14/sex-and-tech-12-relationship-rules-from-facebook-to-twitter/full/
+http://nextround.net/2010/11/the-officer-told-the-resident-his-order-had-arrived
+http://www.wired.com/wiredscience/2010/11/portraits-of-the-mind-gallery/
+http://wonkroom.thinkprogress.org/2010/11/14/bankers-assoc-better/
+http://business2press.com/2010/11/15/google-executives-employees-salary-raises/
+http://www.gq.com/video/videos/glee-video-shoot-cory-monteith-lea-michele-dianna-agron
+http://www.cracked.com/blog/7-real-suits-that-will-soon-make-world-cooler-place/
+http://news.yahoo.com/s/ap/20101115/ap_on_re_us/us_declared_dead_charges
+http://gamingbolt.com/how-much-of-the-playstation-3s-power-do-the-exclusives-use
+    http://www.covers.com/articles/articles.aspx?theArt=210816&t=0
+http://www.theatlanticwire.com/opinions/view/opinion/The-11-Most-Controversial-Google-Doodles-5784
+    http://blog.rounds.com/weirdest-mugshots-tattoos/
+http://www.newsweek.com/2010/11/13/is-the-presidency-too-big-a-job.html
+http://smashinghub.com/20-top-desktop-blogger-editors-to-manage-your-blog-easily.htm
+http://gamrfeed.vgchartz.com/story/82728/an-early-look-at-usa-black-friday-1126-video-game-deals/
+http://www.crazytechnews.com/four-android-tablets-that-really-deserve-your-hard-earned-cash.html
+http://www.reuterspost.com/2010/11/which-is-right-for-you.html
+http://www.icanhasinternets.com/2010/11/the-minds-of-dogs-vs-cats/
+http://www.newsweek.com/2010/11/14/why-family-medical-history-trumps-dna-testing.html
+http://rawjustice.com/2010/11/11/two-moms-return-from-europe-with-their-kidnapped-sons/
+http://newsjunkiepost.com/2010/11/14/energy-with-peak-oil-passed-it-is-time-for-a-post-carbon-age/
+http://www.swtorstrategies.com/2010/11/swtor-crafting-and-crew-skill.html
+http://www.hollybaby.com/2010/11/13/jenna-jameson-porn-motherhood-twins-w/
+http://www.boingboing.net/2010/11/13/man-at-san-diego-air.html
+http://www.vivaboo.com/candy-corn-a-sweet-inspiration/
+http://www.popcrunch.com/16-feelgood-movies-that-dont-treat-you-like-a-moron/
+http://torrentfreak.com/suing-blind-and-one-legged-pirates-is-bad-pr-101114/
+http://techcrunch.com/2010/11/14/tumblr-4chan-war/
+http://glanceworld.com/tech-news/facebook-acquires-fb-com-to-start-an-e-mail-service.html
+http://www.mint.com/blog/how-to/credit-for-work-1112201/
+http://www.edibleapple.com/why-theres-still-no-netflix-app-for-android-fragmentation/
+http://thehoopdoctors.com/online2/2010/11/steve-nash-and-wife-announce-divorce-day-after-sons-birth/
+http://fyiliving.com/kids-health/sports-drinks-full-of-sugar
+http://blogs.discovery.com/animal_oddities/2010/11/lizards-prove-virgin-birth-is-possible.html
+http://freakoutnation.com/2010/11/14/wtf-bush-would-have-endorsed-obama/
+http://www.chicagonow.com/blogs/music-mom/2010/11/a-tribute-to-our-favorite-bearded-artists-during-no-shave-november.html
+http://news.cnet.com/8301-13577_3-20022736-36.html
+http://www.mediaite.com/tv/video-snl-mocks-george-w-bush-kanye-west-feud/
+http://www.treehugger.com/files/2010/11/pennsylvania-conservation-officer-gunned-down-by-suspected-poacher.php
+http://finance.yahoo.com/career-work/article/111248/million-dollar-businesses-youve-never-heard-of?mod=career-worklife_balance
+http://triggerpit.com/gallery/2010/11/14/sequoia-driftwood/
+http://www.nj.com/news/index.ssf/2010/11/alleged_essex_video_game_theft.html
+http://g4tv.com/thefeed/blog/post/708610/poll-american-public-still-wants-goverment-to-ban-games.html
+http://blastr.com/2010/11/10-green-sci-fi-movies-in.php
+http://politicalticker.blogs.cnn.com/2010/11/12/palins-unfavorables-reach-all-time-high/
+http://www.intomobile.com/2010/11/13/netflix-android-2011-fragmentation-drm-dela/
+http://runt-of-the-web.com/post/1571928268/vladimir-putin-cuddles-with-a-puppy
+http://guyism.com/humor/the-10-most-racist-food-products-ever.html
+http://www.petalot.com/2010/11/since-30-years-chinese-have-only-been-allowed-one-child-and-now-one-dog/
+http://www.cracked.com/article_18811_5-real-macgyvers-who-won-battles-with-improvised-weapons.html
+http://geeksofdoom.com/2010/11/13/the-thing-prequel-loses-its-release-date-replaced-by-fast-and-the-furious-5/
+    http://www.atom.com/blog/2010/11/12/november-18th-declared-have-sex-with-a-guy-with-a-mustache-day/
+http://www.tokeofthetown.com/2010/11/nz_cart_of_burning_cannabis_pushed_inside_police_s.php
+    http://www.complex.com/blogs/2010/11/11/women-in-uniform-the-10-sexiest-military-movie-characters/
+http://www.greenbiz.com/blog/2010/11/12/how-americas-50-largest-cities-rate-ev-readiness
+http://techcrunch.com/2010/11/13/alexia-phone-home/
+http://www.greenpacks.org/2010/11/09/glaxosmithkline-to-build-world%E2%80%99s-largest-solar-array/
+http://www.dumbblog.com/2010/11/14/obamas-white-house-hands-out-111-health-care-waivers/
+http://video.mpora.fr/watch/Mv6mNjaA1/
+http://milo.com/blog/the-biggest-frenzy-inducing-holiday-toys-of-all-time/
+http://au.movies.ign.com/articles/113/1133725p1.html
+http://gamingbolt.com/dragon-age-ii-a-new-age-in-gaming
+http://funnydoom.com/food-sexy-covers/
+http://video.mpora.com/watch/zsUD0UZg6/
+http://www.cracked.com/article_18848_4-reasons-terminators-suck-at-their-jobs.html
+http://crispgreen.com/2010/11/tesla-roadster-owner-logs-40000-miles-in-one-year/
+http://theweek.com/article/index/209304/apples-first-ever-computer-by-the-numbers
+http://coedmagazine.com/2010/11/06/the-6-most-ridiculous-celebrity-sex-tapes/
+http://guyism.com/humor/the-10-most-dangerous-toys-of-your-childhood.html
+http://gamrfeed.vgchartz.com/story/81075/metroid-other-m-gets-new-story-trailer/
+http://www.digitaltrends.com/computing/kinects-camera-could-record-data-for-advertisers/
+http://opinionator.blogs.nytimes.com/2010/11/12/lincolns-mailbag/
+http://ecosalon.com/pretty-versus-smart-can%E2%80%99t-a-woman-be-both/
+http://www.youtube.com/watch?v=5sAF8gMN9c0&feature=player_embedded
+http://www.youtube.com/watch?v=wlonv3yJCL4
+http://edition.cnn.com/2010/WORLD/asiapcf/11/13/myanmar.reaction/index.html?hpt=T1
+http://sports.yahoo.com/golf/blog/devil_ball_golf/post/Check-out-Tiger-Woods-sparkly-new-50-million-b?urn=golf-285233
+http://www.dailymail.co.uk/news/article-1329403/NHS-condoms-video-Porn-No-trying-encourage-teenagers-use-contraception.html
+http://www.savings.com/blog/post/Infographic-Americas-Top-Money-Savers.html
+http://hothardware.com/News/Doctors-Prescribe-Tetris-For-PostTraumatic-Stress-Disorder/
+http://blogs.laweekly.com/informer/2010/11/marijuana_dispensaries_angeles.php
+http://www.ismashphone.com/2010/11/what-new-features-will-ios-42-bring-to-the-iphone.html
+http://www.businesspundit.com/12-epic-news-commercial-and-game-show-bloopers/
+http://blog.koldcast.tv/2010/koldcast-news/the-12-most-regrettable-living-situations-in-movie-history/
+http://www.totalprosports.com/2010/11/09/russian-pm-vladimir-putin-takes-on-f1-racing-video/
+http://www.cbsnews.com/stories/2010/11/13/politics/main7051579.shtml
+http://inhabitat.com/2010/11/13/artist-ben-wilson-uses-old-chewing-gum-to-beautify-sidewalks/
+http://johnnyedge.blogspot.com/2010/11/these-events-took-place-roughly-between.html
+http://www.comicsalliance.com/2010/11/12/green-lantern-movie-preview/
+http://au.xbox360.ign.com/articles/113/1134087p1.html
+http://www.cracked.com/article_18848_4-reasons-terminators-suck-at-their-jobs.html
+http://www.theblaze.com/stories/los-angeles-man-tries-to-run-down-woman-who-refused-his-proposal/
+http://biofriendly.com/blog/recycle/what-to-recycle-on-america-recycles-day/
+http://www.guardian.co.uk/politics/2010/nov/12/mcdonalds-pepsico-help-health-policy
+http://greenopolis.com/goblog/green-groove/bmw-unveils-3-versions-retro-electric-scooter
+http://thehoopdoctors.com/online2/2010/11/university-of-kentuckys-enes-kanter-ruled-permanently-ineligible-by-the-ncaa/
+http://edition.cnn.com/2010/SHOWBIZ/Music/11/12/iconic.photographer.mick.rock/index.html
+http://www.atom.com/blog/2010/11/12/the-5-worst-dads-on-the-internet/
+http://thehoopdoctors.com/online2/2010/11/university-of-kentuckys-enes-kanter-ruled-permanently-ineligible-by-the-ncaa/
+http://screencrave.com/2010-11-12/paul-giamatti-to-join-the-hangover-2/ (bit high, but okay... prob dodgy layout)
+http://thehoopdoctors.com/online2/2010/11/kevin-love-goes-off-for-31-points-and-31-rebounds/
+http://blogs.houstonpress.com/hairballs/2010/11/ten_filthy-sounding_sports_terms.php
+http://www.physorg.com/news/2010-11-oil-substitutes.html
+http://backporch.fanhouse.com/2010/11/12/tiger-woods-new-50-million-bachelor-bad/
+http://smallbusiness.aol.com/2010/11/10/beyond-bedbugs-8-insects-businesses-should-really-be-worried-ab/
+http://www.npr.org/templates/story/story.php?storyId=131288786
+http://gnews.com/major-retailers-threaten-to-blow-off-steam-supported-games-18201003113111/
