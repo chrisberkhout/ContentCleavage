@@ -21,13 +21,13 @@ var findPos = function (obj) { // http://www.quirksmode.org/js/findpos.html
 };
 
 var getDocHeight = function () {
-    if (document.height > 0) { 
+    if (unsafeWindow.document.height > 0) { 
         // Doing this because document.body.clientHeight gives the wrong height, e.g. for:
         // http://www.aaronboodman.com/2009/04/content-scripts-in-chromium.html
-        return document.height; 
+        return unsafeWindow.document.height; 
     } else { 
         // Doing this because document.height isn't always defined, e.g. for: http://sivers.org/itunes/
-        return document.body.clientHeight; 
+        return unsafeWindow.document.body.clientHeight; 
     }
 };
 
@@ -76,7 +76,7 @@ var getCommentsElem = function () {
     var elems, ei, pi, attrib, re;
 
     for (pi = 0; pi < patterns.length; pi += 1) {
-        elems = document.getElementsByTagName(patterns[pi]['tag']);
+        elems = unsafeWindow.document.getElementsByTagName(patterns[pi]['tag']);
         for (ei=0; ei < elems.length; ei += 1) {
             attrib = patterns[pi]['attrib'];
             re = patterns[pi]['re'];
@@ -102,27 +102,27 @@ var insertBar = function () {
         commentsPart, 
         bar;
     
-    winHeight = window.innerHeight;
+    winHeight = unsafeWindow.innerHeight;
     docHeight = getDocHeight();
     commentsElem = getCommentsElem();
     articlePartHeight = winHeight * (findPos(commentsElem)[1] / docHeight);
     commentsPartHeight = winHeight - articlePartHeight;
 
-    articlePart = document.createElement('div');
+    articlePart = unsafeWindow.document.createElement('div');
     articlePart.id = 'readingRegionArticle';
     articlePart.style.cssText = 
         'height: ' + articlePartHeight + 'px;' +
         'width: 10px;' +
         'background-color: green;';
 
-    commentsPart = document.createElement('div');
+    commentsPart = unsafeWindow.document.createElement('div');
     commentsPart.id = 'readingRegionComments';
     commentsPart.style.cssText = 
         'height: ' + commentsPartHeight + 'px;' +
         'width: 10px;' +
         'background-color: red;';
 
-    bar = document.createElement('div');
+    bar = unsafeWindow.document.createElement('div');
     bar.id = 'ContentCleavageBar';
     bar.style.cssText = 
         'position: fixed;' +
@@ -134,19 +134,19 @@ var insertBar = function () {
 
     bar.appendChild(articlePart);
     bar.appendChild(commentsPart);
-    document.body.appendChild(bar);
+    unsafeWindow.document.body.appendChild(bar);
 };
 
 var redrawBar = function () {
-    var oldBar = document.getElementById('ContentCleavageBar');
-    if (oldBar !== null) { document.body.removeChild(oldBar); }
+    var oldBar = unsafeWindow.document.getElementById('ContentCleavageBar');
+    if (oldBar !== null) { unsafeWindow.document.body.removeChild(oldBar); }
     insertBar();
 };
 
 var elem = getCommentsElem();
 if (elem) { 
     insertBar();
-    window.addEventListener('resize',redrawBar,false);
+    unsafeWindow.addEventListener('resize',redrawBar,false);
     // These redraws are to correct for pages that are extended after load (e.g. pages using DISQUS).
     setTimeout(redrawBar,500); 
     setTimeout(redrawBar,1500);
