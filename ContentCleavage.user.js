@@ -1,8 +1,7 @@
-//
 // ==UserScript==
 // @name          ContentCleavage
-// @namespace     http://github.com/chrisberkhout/ContentCleavage
 // @description   See the split between comments and primary content
+// @namespace     http://github.com/chrisberkhout/ContentCleavage
 // @include       *
 // ==/UserScript==
 //
