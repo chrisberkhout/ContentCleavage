@@ -3,6 +3,7 @@
 // @description   See the split between comments and primary content
 // @namespace     http://github.com/chrisberkhout/ContentCleavage
 // @include       *
+// @version       1.0
 // ==/UserScript==
 //
 // -----------------------------------------------------------------------------
