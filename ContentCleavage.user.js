@@ -62,6 +62,7 @@ var getCommentsElem = function () {
         // Patterns with more chance of a correct match should be earlier in this list.
         { tag: 'div',     attrib: 'class', re: /^discussion-column$/i, reject: true },
         { tag: 'div',     attrib: 'id',    re: /^idc-container.*$/i },
+        { tag: 'a',       attrib: 'name',  re: /^comment.*list$/i },
         { tag: 'div',     attrib: 'id',    re: /^comments$/i },
         { tag: 'div',     attrib: 'class', re: /\bcomments\b/i },
         { tag: 'div',     attrib: 'id',    re: /^discussion$/i },
