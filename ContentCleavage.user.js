@@ -61,6 +61,8 @@ var getCommentsElem = function () {
         // The first matching pattern triggers the return of the first matched element within the document.
         // Patterns with more chance of a correct match should be earlier in this list.
         { tag: 'div',     attrib: 'class', re: /^discussion-column$/i, reject: true },
+        { tag: 'ul',      attrib: 'id',    re: /^dsq-comments$/i },
+        { tag: 'div',     attrib: 'id',    re: /^disqus_thread$/i },
         { tag: 'div',     attrib: 'id',    re: /^idc-container.*$/i },
         { tag: 'a',       attrib: 'name',  re: /^comment.*list$/i },
         { tag: 'div',     attrib: 'id',    re: /^comments$/i },
@@ -78,8 +80,6 @@ var getCommentsElem = function () {
         { tag: 'div',     attrib: 'class', re: /\bcomments-section\b/i },
         { tag: 'div',     attrib: 'class', re: /\bmainComments\b/i },
         { tag: 'section', attrib: 'class', re: /\bcomments\b/i },
-        { tag: 'ul',      attrib: 'id',    re: /^dsq-comments$/i },
-        { tag: 'div',     attrib: 'id',    re: /^disqus_thread$/i },
         { tag: 'div',     attrib: 'class', re: /\bcommentarea\b/i },
         { tag: 'div',     attrib: 'class', re: /\bcomments?_holder\b/i },
         { tag: 'a',       attrib: 'name',  re: /^comments$/i },
