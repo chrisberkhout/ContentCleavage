@@ -10,7 +10,7 @@
 //
 // The MIT License
 // 
-// Copyright (c) 2010 Chris Berkhout
+// Copyright (c) 2010 Chris Berkhout (http://chrisberkhout.com)
 // 
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -95,7 +95,7 @@ var getCommentsElem = function () {
         { tag: 'div',     attrib: 'id',    re: /^remarks$/i },
         { tag: 'div',     attrib: 'id',    re: /^commentsLink$/i },
         { tag: 'div',     attrib: 'class', re: /\bSTR_StripComments\b/i },
-        { tag: 'div',     attrib: 'class', re: /\bfluxcomment\b/i },
+        { tag: 'div',     attrib: 'class', re: /\bcomment\b/i },
         { tag: 'a',       attrib: 'id',    re: /^comments$/i },
         { tag: 'span',    attrib: 'class', re: /\b.+-comments\b/i }
     ];
