@@ -15,6 +15,12 @@ following reader comments.
 
 For screenshots, please see [http://skit.ch/9kk](http://skit.ch/9kk)
 
+## Status
+
+In August 2012 I noticed Google has changed Chrome's support for
+greasemonkey scripts, so they can't be installed as described below.
+I'm not sure if I'll submit this to the Chrome Web Store.
+
 ## Installation
 
 For Google Chrome:
